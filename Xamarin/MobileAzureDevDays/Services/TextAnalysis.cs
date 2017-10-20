@@ -11,7 +11,7 @@ namespace MobileAzureDevDays.Services
     static class TextAnalysis
     {
 #error Missing Sentiment API Key
-        const string _sentimentAPIKey = "";
+        const string _sentimentAPIKey = "497b1d29b46a4c9f8a1ae0e130f36d2a";
 
         readonly static Lazy<SentimentClient> _sentimentClientHolder = new Lazy<SentimentClient>(() => new SentimentClient(_sentimentAPIKey));
 
